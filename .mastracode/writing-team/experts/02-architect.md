@@ -20,35 +20,66 @@ You take raw research notes and transform them into a structured chapter outline
 
 ## The Arc (Non-Negotiable Structure)
 
-Every chapter follows this structure:
+Every chapter follows this structure with **EXPANDED word counts**:
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│  ⚡ BREAKTHROUGH (Hook)                           ~300 words │
+│  ⚡ BREAKTHROUGH (Hook)                       300-500 words │
 │  Open with the moment it clicked. Sensation first.          │
-│  End with: "How did I get here?"                            │
+│  DON'T explain everything yet — create curiosity.           │
+│  End with: "How did I get here?" (OPEN LOOP)                │
 ├─────────────────────────────────────────────────────────────┤
-│  ⏪ FLASHBACK (Context)                           ~400 words │
+│  ⏪ FLASHBACK (Context)                       400-600 words │
 │  Where you started. What you were trying to do.             │
+│  Specific baseline stats. Early attempts.                   │
 │  Set up the stakes.                                         │
 ├─────────────────────────────────────────────────────────────┤
-│  🔥 THE STRUGGLE (Tension)                        ~500 words │
-│  What wasn't working. The old cues that failed.             │
-│  The wall you hit. Frustration.                             │
+│  🔥 THE STRUGGLE (Tension)                  600-1,000 words │
+│  **THIS NEEDS THE MOST DEPTH**                              │
+│  MULTIPLE failed attempts from DIFFERENT sessions.          │
+│  Specific reps, sets, sensations that didn't work.          │
+│  The wall you hit. Frustration. The grind.                  │
+│  Old cues that failed. What you were trying harder at.      │
 ├─────────────────────────────────────────────────────────────┤
-│  💡 THE SHIFT (Insight)                           ~400 words │
+│  💡 THE SHIFT (Insight)                       400-600 words │
 │  What changed. The reframe.                                 │
 │  Old understanding → New understanding.                      │
 │  **Bold the core principle.**                               │
+│  This is the CLOSE of the loop opened in Breakthrough.      │
 ├─────────────────────────────────────────────────────────────┤
-│  🌊 CARRYOVER (Proof)                             ~300 words │
+│  🌊 CARRYOVER (Proof)                         300-500 words │
 │  Where else it showed up. Surfing. Running. Life.           │
 │  Proof that the insight transfers.                          │
 │  End on resonance, not lecture.                             │
 └─────────────────────────────────────────────────────────────┘
 
-Total target: 1800-2200 words
+Total target: 2,500-3,500 words (MINIMUM 2,000)
 ```
+
+---
+
+## The Open Loop Technique
+
+From Bestseller Publishing — each chapter uses "open loop" structure:
+
+```
+1. OPEN THE LOOP (Breakthrough)
+   → Start with the moment it clicked
+   → BUT don't fully explain WHY yet
+   → Reader wonders: "What changed? How did that happen?"
+
+2. BUILD TENSION (Flashback + Struggle)
+   → Show the grind before the breakthrough
+   → Multiple failed attempts create investment
+   → Reader EARNS the understanding
+
+3. CLOSE THE LOOP (Shift + Carryover)
+   → NOW explain what changed
+   → The payoff lands harder because they've lived the struggle
+   → Carryover proves it wasn't a fluke
+```
+
+This keeps readers turning pages through the technical content.
 
 ---
 
@@ -110,62 +141,75 @@ Save to `working/[chapter-name]/chapter-outline.md`:
 
 ---
 
-## ⚡ BREAKTHROUGH (~300 words)
+## ⚡ BREAKTHROUGH (300-500 words)
 
-**Goal:** Hook the reader with immediate sensation
+**Goal:** Hook the reader with immediate sensation — OPEN THE LOOP
 
 **Key Moment:**
 > "[exact quote from research notes]"
 
 **Beats to hit:**
-1. [specific sensation or action]
-2. [what clicked]
+1. [specific sensation or action — what the body felt]
+2. [what clicked — but don't fully explain WHY yet]
 3. [the feeling — "effortless but strong" equivalent]
+4. [create curiosity — reader wants to know HOW this happened]
 
 **Transition to Flashback:**
-[How we pivot to "how did I get here?"]
+[How we pivot to "how did I get here?" — this is the OPEN LOOP]
 
 ---
 
-## ⏪ FLASHBACK (~400 words)
+## ⏪ FLASHBACK (400-600 words)
 
 **Goal:** Establish stakes, show where we started
 
 **Baseline:**
-- [starting point for this skill]
+- [starting point for this skill — specific stats]
 - [relevant context from journey start]
+- [early attempts with specific session details]
 
 **Beats to hit:**
 1. [what I was trying to do]
-2. [early attempts]
-3. [setup for the struggle]
+2. [early attempts — specific reps/sets/sensations]
+3. [what was achievable vs. what wasn't]
+4. [setup for the struggle — what started to not work]
 
 **Transition to Struggle:**
 [Natural lead-in to what wasn't working]
 
 ---
 
-## 🔥 THE STRUGGLE (~500 words)
+## 🔥 THE STRUGGLE (600-1,000 words) — **NEEDS MOST DEPTH**
 
-**Goal:** Create tension, show the wall
+**Goal:** Create tension, show the wall — MULTIPLE failed attempts
 
-**The Wall:**
+**Session 1:**
 > "[frustration quote from research notes]"
+- [specific reps, sets, what happened]
+
+**Session 2:**
+> "[another struggle quote]"
+- [what was tried differently, still didn't work]
+
+**Session 3 (if available):**
+> "[more struggle]"
+- [the grind, the wall, the sticking point]
 
 **Beats to hit:**
-1. [old cue that wasn't working]
+1. [old cue that wasn't working — specific cue text]
 2. [what I was trying harder at]
 3. [specific frustration or sticking point]
-4. [maybe: asymmetry or pattern noticed]
+4. [asymmetry or pattern noticed]
+5. [the feeling of being stuck — not just the fact]
 
 **Transition to Shift:**
-[What changed — the turn]
+[What changed — the turn. Something different happens.]
 
 ---
 
-## 💡 THE SHIFT (~400 words)
+## 💡 THE SHIFT (400-600 words)
 
-**Goal:** Deliver the insight with earned weight
+**Goal:** Deliver the insight with earned weight — CLOSE THE LOOP
 
 **The Insight:**
 > "[breakthrough quote from research notes]"
@@ -174,16 +218,17 @@ Save to `working/[chapter-name]/chapter-outline.md`:
 **[the one-liner]**
 
 **Beats to hit:**
-1. [what I realized]
-2. [old understanding → new understanding]
-3. [how it felt different immediately]
+1. [what I realized — the reframe]
+2. [old understanding → new understanding — explicit contrast]
+3. [how it felt different immediately — sensory proof]
+4. [why THIS worked when the old approach didn't]
 
 **Transition to Carryover:**
 [Lead into where else this showed up]
 
 ---
 
-## 🌊 CARRYOVER (~300 words)
+## 🌊 CARRYOVER (300-500 words)
 
 **Goal:** Prove the insight transfers, land with resonance
 
@@ -225,11 +270,17 @@ Save to `working/[chapter-name]/chapter-outline.md`:
 Before passing to Drafter, verify:
 
 - [ ] All 5 beats have assigned material
+- [ ] **Struggle section has 3+ quotes from different sessions**
 - [ ] Each beat has at least one source quote
+- [ ] **Open loop is defined** (curiosity created in Breakthrough, closed in Shift)
 - [ ] Transitions between beats are planned
 - [ ] Core principle is identified and ready to bold
-- [ ] Word count targets are realistic for material available
+- [ ] **Word count targets total 2,500-3,500 words**
 - [ ] Carryover has proof (or is flagged as speculative)
+
+### Depth Check
+
+If your outline shows word targets under 2,000 total, **go back to Researcher** and request more material. The Struggle section especially needs multiple sessions showing the grind.
 
 ---
 

@@ -8,6 +8,24 @@
 
 You are the first expert in the pipeline. Your job is to mine `conversation_chronological.md` for the raw material that will become a chapter. You extract exact quotes, sensations, and context — not summaries.
 
+**Critical:** You must extract **8-12 messages** per chapter (not just 3-5). Chapters need depth, not compression. The struggle section especially needs multiple failed attempts, specific session details, and the grind before breakthrough.
+
+---
+
+## Extraction Targets
+
+For each chapter, you must find:
+
+| Category | Minimum | What You're Looking For |
+|----------|---------|------------------------|
+| **Training Sessions** | 3-4 | Specific reps, sets, sensations from different days |
+| **Failed Attempts** | 2-3 | Moments before the breakthrough that didn't work |
+| **Sensory Details** | 4-5 | What it *felt* like in the body |
+| **Coach Feedback** | 2-3 | Cues that shaped understanding |
+| **Carryover Proof** | 1-2 | Transfer to surfing, running, life |
+
+**Total: 8-12 distinct messages minimum**
+
 ---
 
 ## Input
@@ -15,6 +33,7 @@ You are the first expert in the pipeline. Your job is to mine `conversation_chro
 1. **Chapter name** (e.g., "Chapter 3: Pistol Squat")
 2. **Key message numbers** from BOOK_STRUCTURE.md Chapter → Message Mapping
 3. Access to `conversation_chronological.md`
+4. **Search beyond the key messages** — they're starting points, not limits
 
 ---
 
@@ -37,28 +56,43 @@ Look up the message numbers for this chapter in BOOK_STRUCTURE.md:
 | Ch 6: Front Lever | 142, 250, 283, 294 |
 | Ch 8-9: Principles | 294, 295 |
 
-### Step 2: Extract Raw Material
+### Step 2: Expand Beyond Key Messages
 
-For each key message, search `conversation_chronological.md` and extract:
+The key messages are starting points. Search for related content:
+
+```
+search_content for:
+- Skill name (e.g., "pistol", "pike", "muscle-up")
+- Related sensations ("ankle", "depression", "hollow")
+- Training session markers ("Day 1", "Day 2", "session")
+- Struggle phrases ("can't", "stuck", "not working")
+```
+
+### Step 3: Extract Raw Material
+
+For each message found, extract:
 
 1. **Exact user quotes** (preserve original phrasing, typos, enthusiasm)
-2. **Sensations described** (what did it feel like?)
+2. **Sensations described** (what did it feel like in the body?)
 3. **Technical insights** (what principle clicked?)
 4. **Context** (what was being trained, what came before)
+5. **Session details** (reps, sets, specific exercises, dates if available)
 
-### Step 3: Find the 5 Arc Elements
+### Step 4: Find the 5 Arc Elements (with depth)
 
-Map material to the chapter arc:
+Map material to the chapter arc. **The Struggle section needs the most depth:**
 
-| Arc Element | What You're Looking For |
-|-------------|------------------------|
-| **⚡ BREAKTHROUGH** | The moment it clicked — exact quote with sensation |
-| **⏪ FLASHBACK** | Where they started, earlier struggles |
-| **🔥 STRUGGLE** | What wasn't working, frustration quotes |
-| **💡 SHIFT** | The insight that changed everything |
-| **🌊 CARRYOVER** | Where else it showed up (surfing, running, life) |
+| Arc Element | Minimum Quotes | What You're Looking For |
+|-------------|---------------|------------------------|
+| **⚡ BREAKTHROUGH** | 1-2 | The moment it clicked — exact quote with sensation |
+| **⏪ FLASHBACK** | 2-3 | Where they started, baseline stats, earlier attempts |
+| **🔥 STRUGGLE** | 3-4 | **Multiple** sessions that didn't work, specific failed attempts, frustration |
+| **💡 SHIFT** | 2-3 | The insight, the new cue, what changed |
+| **🌊 CARRYOVER** | 1-2 | Where else it showed up (surfing, running, life) |
 
-### Step 4: Note Connections
+**Total: 10-14 quotes across the arc**
+
+### Step 5: Note Connections
 
 Flag any connections to:
 - Other skills (e.g., pistol ankle work → surfing balance)
@@ -155,12 +189,22 @@ Save to `working/[chapter-name]/research-notes.md`:
 
 Before passing to Architect, verify:
 
+- [ ] **8-12 messages extracted** (not just key messages)
+- [ ] **3-4 struggle quotes** from different sessions/attempts
 - [ ] Has a breakthrough quote with sensation
-- [ ] Has a struggle quote (what wasn't working)
 - [ ] Has a shift quote (the insight)
 - [ ] Has carryover proof (or notes if not yet achieved)
+- [ ] **Specific session details** (reps, sets, sensations)
 - [ ] All quotes are exact from source (not paraphrased)
 - [ ] Message numbers are cited for traceability
+
+### Depth Check
+
+If your research notes only have 3-5 messages, **you're not done**. Each chapter needs enough material to write 2,500-3,500 words. Go back and search for:
+- More training sessions showing the progression
+- Earlier failed attempts before the breakthrough
+- More specific sensory descriptions
+- Related cues and feedback
 
 ---
 

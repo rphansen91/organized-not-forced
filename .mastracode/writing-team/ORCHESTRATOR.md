@@ -4,6 +4,28 @@
 
 ---
 
+## Book Length Targets
+
+Based on Bestseller Publishing research on self-help books:
+
+| Metric | Industry Standard | Our Target |
+|--------|------------------|------------|
+| **Book Total** | 30,000–70,000 words | **30,000–40,000 words** |
+| **Chapter Average** | 1,500–4,000 words | **2,500–3,500 words** |
+| **Number of Chapters** | 7–20 chapters | **12 chapters** |
+
+### Word Count Targets by Chapter Type
+
+| Chapter Type | Target Words | Sections |
+|--------------|-------------|----------|
+| **Prologue** | 1,500–2,000 | Hook + setup + transition |
+| **Skill Chapters** (3–7) | 2,500–3,500 | Full 5-beat arc with depth |
+| **Principle Chapters** (8–10) | 2,000–3,000 | Concept + multiple examples |
+| **Integration Chapters** (11–12) | 2,500–3,500 | Multiple domains + synthesis |
+| **Framework Chapters** (1–2) | 2,000–2,500 | Origin + context |
+
+---
+
 ## Quick Start
 
 ```
@@ -22,9 +44,9 @@ From BOOK_STRUCTURE.md — chapters in order of priority:
 |-------|----------|----------------|
 | **1: Hook** | ✅ Prologue | Already complete — pike breakthrough |
 | **2: Richest Material** | Ch 3: Pistol Squat, Ch 7: Planche | Most breakthrough material, write while vivid |
-| **3: The Struggle** | Ch 4: Muscle-Up, Ch 2: The Old Way | Creates stakes |
-| **4: Integration** | Ch 10: Carryover, Ch 11: Transformation | The payoff |
-| **5: Fill In** | Ch 1, Ch 5, Ch 6, Ch 8-9 | As skills are achieved through 2026 |
+| **3: The Struggle** | Ch 4: Muscle-Up, Ch 10: Joints | Creates stakes + warmup discovery |
+| **4: Framework** | Ch 1: Goals, Ch 2: The Old Way | Origin story + context |
+| **5: Fill In** | Ch 5, Ch 6, Ch 8-9, Ch 11-12 | As skills are achieved through 2026 |
 
 ---
 
@@ -49,11 +71,25 @@ Before advancing to next expert, verify:
 
 | From → To | Gate |
 |-----------|------|
-| Researcher → Architect | Has breakthrough quote, struggle quote, shift quote, carryover proof |
-| Architect → Drafter | All 5 beats mapped with source material assigned |
-| Drafter → Editor | Opens with sensation, stays in experience, ~1500-2500 words |
-| Editor → Fact-Checker | No gaudy language, pacing breathes, voice matches prologue |
-| Fact-Checker → Complete | All claims verified ✓ or corrected |
+| Researcher → Architect | Has 8-12 messages extracted, breakthrough/struggle/shift/carryover quotes |
+| Architect → Drafter | All 5 beats mapped with source material, "open loop" structure defined |
+| Drafter → Editor | Opens with sensation, stays in experience, **meets word target (2,000+ min)** |
+| Editor → Fact-Checker | No gaudy language, pacing breathes, **depth check passed**, voice matches prologue |
+| Fact-Checker → Complete | All claims verified ✓ or corrected, cross-chapter redundancy checked |
+
+### Word Count Minimums by Section
+
+```
+MINIMUM WORD COUNTS BY SECTION:
+- Breakthrough opening: 300-500 words
+- Flashback/setup: 400-600 words  
+- Struggle: 600-1,000 words (this needs the most depth — multiple failed attempts)
+- Shift: 400-600 words
+- Carryover: 300-500 words
+
+TOTAL CHAPTER MINIMUM: 2,000 words
+TARGET: 2,500-3,500 words
+```
 
 ---
 
@@ -158,6 +194,30 @@ When drafting, maintain this voice:
 - Clichés ("different species")
 - Meta-commentary ("But I'm getting ahead of myself")
 - Reaching similes ("like they'd found a shelf they'd been searching for")
+
+---
+
+## Open Loop Structure
+
+From Bestseller Publishing: Each chapter should use the "open loop" technique:
+
+```
+1. OPEN THE LOOP — Start with breakthrough moment
+   - Don't fully explain what changed yet
+   - Create curiosity: "Something clicked that day..."
+
+2. BUILD — Flashback through struggle
+   - Multiple failed attempts (this is where depth lives)
+   - Specific sessions, reps, sensations
+   - The grind before the breakthrough
+
+3. CLOSE THE LOOP — Return to breakthrough with earned understanding
+   - Now the reader knows WHY it clicked
+   - The payoff lands harder because they've lived the struggle
+   - Carryover proves it wasn't a fluke
+```
+
+This keeps readers turning pages through the technical content.
 
 ---
 

@@ -1,19 +1,37 @@
 # Writing Team Status
 
+## ⚠️ UPDATED WORD COUNT TARGETS (Based on Publishing Research)
+
+| Metric | Old Target | NEW Target | Industry Standard |
+|--------|------------|------------|-------------------|
+| **Per Chapter** | ~1,000 | **2,500-3,500** | 2,000-4,000 |
+| **Struggle Section** | ~200 | **600-1,000** | Needs multiple sessions |
+| **Total Book** | ~12,000 | **30,000-40,000** | 30,000-70,000 (self-help) |
+
 ## Current Focus
 **Chapter**: None (awaiting next chapter)
 
-## Completed Chapters
+## Completed Chapters — NEED EXPANSION
 
-| Chapter | Title | Words | Status |
-|---------|-------|-------|--------|
-| Prologue | The Pike Breakthrough | ~1,100 | ✅ Complete |
-| Chapter 3 | The Pistol Squat | ~1,280 | ✅ Complete |
-| Chapter 4 | The Muscle-Up | ~1,150 | ✅ Complete |
-| Chapter 7 | The Planche | ~1,050 | ✅ Complete |
-| Chapter 10 | Taking the Brakes Off | ~1,100 | ✅ Complete |
+| Chapter | Title | Current | Target | Gap | Status |
+|---------|-------|---------|--------|-----|--------|
+| Prologue | The Pike Breakthrough | 515 | 1,500-2,000 | -985 | ⚠️ Needs expansion |
+| Chapter 3 | The Pistol Squat | 1,100 | 2,500-3,500 | -1,400 | ⚠️ Needs expansion |
+| Chapter 4 | The Muscle-Up | 711 | 2,500-3,500 | -1,789 | ⚠️ Needs expansion |
+| Chapter 7 | The Planche | 799 | 2,500-3,500 | -1,701 | ⚠️ Needs expansion |
+| Chapter 10 | Taking the Brakes Off | 770 | 2,000-3,000 | -1,230 | ⚠️ Needs expansion |
 
-**Total words written**: ~5,680
+**Current total**: ~3,895 words
+**Target total**: 30,000-40,000 words
+**Gap**: ~26,000-36,000 words needed
+
+### What's Missing?
+Per the research, our chapters are missing:
+- Multiple training sessions showing progression
+- Failed attempts before breakthroughs (the grind)
+- Specific session details (reps, sets, dates, sensations)
+- Deeper struggle sections (readers need to feel the wall)
+- More detailed carryover proof (specific moments, not just "it helped surfing")
 
 ## Writing Order (from BOOK_STRUCTURE.md)
 
@@ -40,29 +58,51 @@
 - [ ] Chapter 11 (Carryover) — Surfing, running, life
 - [ ] Chapter 12 (Return) — Full circle to pike moment
 
-## Next Chapter
-**Chapter 5: The Front Lever** — Phase 3 (The Struggle)
-- Arc: Hollow body + lat engagement connection
-- Key messages to extract: front lever tuck holds, lat activation, straight-arm chain
+## Recommended Next Steps
+
+### Option A: Expand Existing Chapters First
+Revise completed chapters (Prologue, Ch 3, 4, 7, 10) to hit new 2,500-3,500 word targets before continuing.
+
+**Start with Chapter 3 (Pistol Squat) as test case:**
+- Current: 1,100 words
+- Target: 2,500-3,500 words
+- Expansion focus: More failed attempts, specific session details, deeper struggle
+
+### Option B: Continue With New Chapters at Expanded Length
+Write remaining chapters at full length, revise completed chapters later.
 
 ---
 
-## Pipeline Reference
+## Pipeline Reference (UPDATED)
 
-Each chapter passes through:
-1. **Researcher** → Extract raw material from conversation_chronological.md
-2. **Architect** → Structure using 5-beat arc (Breakthrough → Flashback → Struggle → Shift → Carryover)
-3. **Drafter** → Write in user's voice (Feel it → Name it)
-4. **Editor** → Tighten prose, remove gaudy language, check rhythm
-5. **Fact-Checker** → Verify against source material
+Each chapter passes through 5 experts with NEW word targets:
+
+| Phase | Expert | Focus | Output |
+|-------|--------|-------|--------|
+| 1 | **Researcher** | Extract 8-12 messages (not 3-5) | research-notes.md |
+| 2 | **Architect** | Map 5-beat arc with word targets | chapter-outline.md |
+| 3 | **Drafter** | Write 2,500-3,500 words | draft-v1.md |
+| 4 | **Editor** | Tighten + DEPTH CHECK | draft-v2.md |
+| 5 | **Fact-Checker** | Verify + redundancy check | draft-final.md |
+
+### Word Targets by Section:
+- Breakthrough: 300-500 words
+- Flashback: 400-600 words
+- **Struggle: 600-1,000 words** (this needs the most depth)
+- Shift: 400-600 words
+- Carryover: 300-500 words
+
+**TOTAL: 2,500-3,500 words per chapter (MINIMUM 2,000)**
+
+---
 
 ## Quick Commands
 
-**To continue writing:**
+**To expand an existing chapter:**
+"Expand Chapter 3 to hit word targets"
+
+**To continue with new chapters:**
 "Continue writing the next chapter"
 
 **To write specific chapter:**
 "Write Chapter X (Title)"
-
-**To review a chapter:**
-"Review Chapter X"

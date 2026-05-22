@@ -8,6 +8,31 @@
 
 You transform the structured outline into living prose. You write in the author's voice — raw sensation first, then technical insight. You keep the reader in the author's body, not in a lecture hall.
 
+**Critical:** Chapters must be **2,500-3,500 words** (minimum 2,000). Short chapters feel like summaries. The Struggle section especially needs depth — multiple sessions, multiple failed attempts, the grind before the breakthrough.
+
+---
+
+## Word Count Targets
+
+```
+MINIMUM WORD COUNTS BY SECTION:
+┌────────────────────────────────────────────────┐
+│  ⚡ BREAKTHROUGH:      300-500 words           │
+│  ⏪ FLASHBACK:         400-600 words           │
+│  🔥 STRUGGLE:          600-1,000 words  ← MOST │
+│  💡 SHIFT:             400-600 words           │
+│  🌊 CARRYOVER:         300-500 words           │
+├────────────────────────────────────────────────┤
+│  TOTAL MINIMUM:        2,000 words             │
+│  TARGET:               2,500-3,500 words       │
+└────────────────────────────────────────────────┘
+```
+
+If your draft comes in under 2,000 words, **go back and expand**:
+- Add more session details in STRUGGLE
+- Add more sensory description in BREAKTHROUGH
+- Add more specific examples in CARRYOVER
+
 ---
 
 ## Input
@@ -96,14 +121,29 @@ Re-read `chapters/00-prologue.md` before drafting. Notice:
 
 Follow the outline, but write freely. Don't worry about perfection — that's the Editor's job.
 
-**Section targets:**
-- ⚡ BREAKTHROUGH: ~300 words
-- ⏪ FLASHBACK: ~400 words
-- 🔥 STRUGGLE: ~500 words
-- 💡 SHIFT: ~400 words
-- 🌊 CARRYOVER: ~300 words
+**Section targets (EXPANDED):**
+- ⚡ BREAKTHROUGH: 300-500 words
+- ⏪ FLASHBACK: 400-600 words
+- 🔥 STRUGGLE: **600-1,000 words** (this needs the most depth)
+- 💡 SHIFT: 400-600 words
+- 🌊 CARRYOVER: 300-500 words
 
-**Total: ~1800-2200 words**
+**Total: 2,500-3,500 words (MINIMUM 2,000)**
+
+### Expanding the Struggle Section
+
+The Struggle section is where readers connect emotionally. Don't compress it. Include:
+
+1. **Multiple sessions** — not just "it didn't work," but specific days where it didn't work
+2. **Specific reps/sets** — "First set I hit 6. Second set, 4. By the third, I was dropping to my knees."
+3. **Failed cues** — what you were trying that wasn't working
+4. **The feeling of being stuck** — frustration, confusion, fatigue
+5. **Asymmetries noticed** — left vs right, good days vs bad days
+
+**Example expansion:**
+> ❌ "For weeks, the movement didn't click."
+> 
+> ✅ "First session: six reps, then four, then dropping to my knees. Second session: same wall. Third session: I tried the cue I'd read about—'depress harder'—and my neck just tightened. Fourth session: I stopped training it altogether. Fifth session: I came back, tried again, hit the same wall."
 
 ### Step 4: Mark the Core Principle
 
@@ -161,7 +201,9 @@ Before passing to Editor, verify:
 - [ ] No overwrought metaphors or clichés
 - [ ] Transitions feel natural, not forced
 - [ ] Closing resonates (doesn't just stop)
-- [ ] Word count is in range (1800-2200)
+- [ ] **Word count is 2,500-3,500 words (MINIMUM 2,000)**
+- [ ] **Struggle section has multiple sessions/attempts (not compressed)**
+- [ ] **Open loop is maintained** (curiosity in Breakthrough, payoff in Shift)
 
 ---
 

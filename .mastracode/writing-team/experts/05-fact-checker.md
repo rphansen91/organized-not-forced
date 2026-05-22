@@ -220,6 +220,52 @@ These were verified and can be used as reference:
 
 ---
 
+## Cross-Chapter Redundancy Check
+
+**New responsibility**: Track what's been stated across chapters to avoid lazy repetition.
+
+### Maintain: `progress/redundancy-log.md`
+
+```markdown
+# Redundancy Log
+
+## Stats That Have Been Stated
+| Fact | First Stated In | Chapter |
+|------|-----------------|---------|
+| "40 pushups, 5 pullups" | Prologue | Don't restate elsewhere |
+| "five goals" | Prologue | Don't restate elsewhere |
+| Left shoulder instability | Prologue | Can reference, don't re-explain |
+
+## Breakthrough Moments Used
+| Moment | Chapter | Can Reference? |
+|--------|---------|----------------|
+| Pike gravity click | Prologue | Yes (it's the thesis) |
+| First unassisted pistol | Chapter 3 | Yes (callback only) |
+
+## Cues That Have Been Explained
+| Cue | Chapter | Notes |
+|-----|---------|-------|
+| "Own the bottom, don't escape it" | Chapter 3 | Don't re-explain |
+```
+
+### Rules:
+
+| Type | OK to Repeat? | How? |
+|------|---------------|------|
+| **Core principle** ("Organized, not forced") | ✅ Yes | Intentional thesis reinforcement |
+| **Major breakthroughs** (pike click) | ✅ Yes | As callback, not re-explanation |
+| **Personal stats** (40 pushups/5 pullups) | ❌ No | State once, reference as "my baseline" |
+| **Specific cues** | ❌ No | Explain once, reference briefly |
+| **Struggle descriptions** | ⚠️ Context | New detail OK, verbatim repetition not |
+
+### When You Find Redundancy:
+
+1. Flag in fact-check report
+2. Suggest fix: "Reference Chapter 3 instead of restating"
+3. Track in redundancy-log.md for future chapters
+
+---
+
 ## After Fact-Check
 
 When fact-check passes:

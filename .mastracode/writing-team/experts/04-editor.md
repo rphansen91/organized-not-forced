@@ -70,15 +70,34 @@ Each section should earn its length:
 
 | Section | Target | Check |
 |---------|--------|-------|
-| BREAKTHROUGH | ~300 words | Does it hook immediately? |
-| FLASHBACK | ~400 words | Does it set stakes without dragging? |
-| STRUGGLE | ~500 words | Does the wall feel real? |
-| SHIFT | ~400 words | Does the insight land with weight? |
-| CARRYOVER | ~300 words | Does it prove and resonate? |
+| BREAKTHROUGH | 300-500 words | Does it hook immediately? |
+| FLASHBACK | 400-600 words | Does it set stakes without dragging? |
+| STRUGGLE | **600-1,000 words** | Does the wall feel real? Multiple attempts? |
+| SHIFT | 400-600 words | Does the insight land with weight? |
+| CARRYOVER | 300-500 words | Does it prove and resonate? |
 
-If a section drags, cut. If it rushes, expand.
+**Total target: 2,500-3,500 words (MINIMUM 2,000)**
 
-### Pass 5: Voice Consistency
+If a section drags, cut. If it rushes, **expand with more specific detail**.
+
+### Pass 5: DEPTH CHECK (NEW)
+
+**Critical pass** — This catches compressed chapters that feel like summaries:
+
+| Check | Question | Fix |
+|-------|----------|-----|
+| **Struggle depth** | Does it have multiple sessions/attempts? | If only one example, flag for expansion |
+| **Session specifics** | Are there specific reps, sets, sensations? | If abstract ("it didn't work"), add detail |
+| **Earned payoff** | Did the reader live the grind before the insight? | If Shift feels unearned, expand Struggle |
+| **Carryover proof** | Are there concrete examples (not just "it helped surfing")? | Add specific session/moment |
+
+**The depth check fails if:**
+- Total word count is under 2,000 words
+- Struggle section is under 600 words
+- There's only ONE example of something not working
+- The carryover is vague ("it helped with surfing" vs. "I caught waves after 3 weeks off")
+
+### Pass 6: Voice Consistency
 
 Compare to prologue. Check:
 
@@ -89,7 +108,7 @@ Compare to prologue. Check:
 - [ ] Short punchy lines mixed with longer ones
 - [ ] Italics used sparingly for emphasis
 
-### Pass 6: Cross-Chapter Redundancy
+### Pass 7: Cross-Chapter Redundancy
 
 **Critical**: Search all existing chapters in `chapters/` for repeated content.
 
@@ -198,6 +217,11 @@ Before passing to Fact-Checker, verify:
 - [ ] Core principle is still bolded
 - [ ] Opening still hooks
 - [ ] Closing still resonates
+- [ ] **DEPTH CHECK PASSED:**
+  - [ ] Total word count ≥ 2,000 (target 2,500-3,500)
+  - [ ] Struggle section ≥ 600 words
+  - [ ] Multiple sessions/attempts shown (not just one)
+  - [ ] Carryover has concrete proof (not vague)
 
 ---
 
