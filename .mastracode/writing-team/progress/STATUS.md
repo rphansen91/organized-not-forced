@@ -11,8 +11,9 @@
 | Chapter 3 | The Pistol Squat | ~1,280 | ✅ Complete |
 | Chapter 4 | The Muscle-Up | ~1,150 | ✅ Complete |
 | Chapter 7 | The Planche | ~1,050 | ✅ Complete |
+| Chapter 10 | Taking the Brakes Off | ~1,100 | ✅ Complete |
 
-**Total words written**: ~4,580
+**Total words written**: ~5,680
 
 ## Writing Order (from BOOK_STRUCTURE.md)
 
@@ -20,10 +21,10 @@
 - [x] Prologue — Pike breakthrough moment
 - [x] Chapter 7 (Planche) — Pike breakthrough, gravity organizing scap
 
-### Phase 2: Richest Material
+### Phase 2: Richest Material ✅
 - [x] Chapter 3 (Pistol) — "Taking the brakes off", ankle healing
 - [x] Chapter 4 (Muscle-Up) — Pull-press not up-down, hollow body
-- [ ] Chapter 10 (Joints) — Warm-up as diagnostic, ankle/wrist activation
+- [x] Chapter 10 (Joints) — Warm-up as diagnostic, ankle/wrist activation
 
 ### Phase 3: The Struggle
 - [ ] Chapter 5 (Front Lever) — Hollow body + lat engagement
@@ -40,9 +41,9 @@
 - [ ] Chapter 12 (Return) — Full circle to pike moment
 
 ## Next Chapter
-**Chapter 10: Taking the Brakes Off** — Joints chapter
-- Key messages: 189 (ankle healing), 250 (left/right asymmetry in warmups), 122/156/234 (wrist prep protocol)
-- Arc: Warm-up as diagnostic → years of stretching failed → loading the joint fixed it → carryover to everything
+**Chapter 5: The Front Lever** — Phase 3 (The Struggle)
+- Arc: Hollow body + lat engagement connection
+- Key messages to extract: front lever tuck holds, lat activation, straight-arm chain
 
 ---
 
