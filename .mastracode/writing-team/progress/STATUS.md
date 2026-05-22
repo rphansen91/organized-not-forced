@@ -1,83 +1,67 @@
-# Writing Progress
+# Writing Team Status
 
-> **Last Updated**: May 22, 2026
+## Current Focus
+**Chapter**: None (awaiting next chapter)
 
----
+## Completed Chapters
 
-## Current State
+| Chapter | Title | Words | Status |
+|---------|-------|-------|--------|
+| Prologue | The Pike Breakthrough | ~1,100 | ✅ Complete |
+| Chapter 3 | The Pistol Squat | ~1,280 | ✅ Complete |
+| Chapter 4 | The Muscle-Up | ~1,150 | ✅ Complete |
+| Chapter 7 | The Planche | ~1,050 | ✅ Complete |
 
-| Field | Value |
-|-------|-------|
-| **Chapter** | — |
-| **Phase** | Ready to start |
-| **Expert** | — |
-| **Blockers** | None |
+**Total words written**: ~4,580
 
----
+## Writing Order (from BOOK_STRUCTURE.md)
 
-## Writing Order (From BOOK_STRUCTURE.md)
+### Phase 1: Anchor Chapters ✅
+- [x] Prologue — Pike breakthrough moment
+- [x] Chapter 7 (Planche) — Pike breakthrough, gravity organizing scap
 
-### Phase 1: The Hook ✅
-- [x] **Prologue** — Pike breakthrough (COMPLETE)
+### Phase 2: Richest Material
+- [x] Chapter 3 (Pistol) — "Taking the brakes off", ankle healing
+- [x] Chapter 4 (Muscle-Up) — Pull-press not up-down, hollow body
+- [ ] Chapter 10 (Joints) — Warm-up as diagnostic, ankle/wrist activation
 
-### Phase 2: Richest Material ✅
-- [x] **Ch 3: Pistol Squat** — First unassisted rep, ankle healing, surfing carryover ✅
-- [x] **Ch 7: Planche** — Pike breakthrough, gravity organizing scap ✅
+### Phase 3: The Struggle
+- [ ] Chapter 5 (Front Lever) — Hollow body + lat engagement
+- [ ] Chapter 6 (HSPU) — Overhead mechanics, wall HSPU progression
 
-### Phase 3: The Struggle  
-- [ ] **Ch 4: Muscle-Up** — Rhythm emerging, can't control transition
-- [ ] **Ch 2: The Old Way** — Trying harder, shoulders giving out
+### Phase 4: Framework Chapters  
+- [ ] Chapter 1 (Five Goals) — Origin story
+- [ ] Chapter 2 (The Old Way) — "Try harder" phase
+- [ ] Chapter 8 (Skeleton Before Muscles) — Core principle
+- [ ] Chapter 9 (The Scapula) — Depression/protraction discovery
 
-### Phase 4: Integration
-- [ ] **Ch 10: Carryover** — Surfing proof, cross-domain transfer
-- [ ] **Ch 11: Transformation** — Return to pike moment, full circle
+### Phase 5: Integration
+- [ ] Chapter 11 (Carryover) — Surfing, running, life
+- [ ] Chapter 12 (Return) — Full circle to pike moment
 
-### Phase 5: Fill In (As Skills Achieved)
-- [ ] **Ch 1: Goals** — The 5 impossible goals
-- [ ] **Ch 5: HSPU** — Scorpion insight, overhead stacking
-- [ ] **Ch 6: Front Lever** — Hollow body online, left/right disconnect
-- [ ] **Ch 8-9: Principles** — Skeleton before muscles, scapula discovery
-
----
-
-## Chapter Status Detail
-
-| Chapter | Phase | Last Expert | Working Dir | Notes |
-|---------|-------|-------------|-------------|-------|
-| Prologue | ✅ Complete | — | — | In `chapters/00-prologue.md` |
-| Ch 3: Pistol | ✅ Complete | Fact-Checker ✓ | ch03-pistol-squat | In `chapters/03-pistol-squat.md` |
-| Ch 7: Planche | ✅ Complete | Fact-Checker ✓ | ch07-planche | In `chapters/07-planche.md` |
-| Ch 4: Muscle-Up | Not started | — | — | Next up |
-| Ch 2: Old Way | Not started | — | — | — |
-| Ch 10: Carryover | Not started | — | — | — |
-| Ch 11: Transformation | Not started | — | — | — |
-| Ch 1: Goals | Not started | — | — | — |
-| Ch 5: HSPU | Not started | — | — | — |
-| Ch 6: Front Lever | Not started | — | — | — |
-| Ch 8-9: Principles | Not started | — | — | — |
+## Next Chapter
+**Chapter 10: Taking the Brakes Off** — Joints chapter
+- Key messages: 189 (ankle healing), 250 (left/right asymmetry in warmups), 122/156/234 (wrist prep protocol)
+- Arc: Warm-up as diagnostic → years of stretching failed → loading the joint fixed it → carryover to everything
 
 ---
 
-## Expert Pipeline Reference
+## Pipeline Reference
 
-```
-Researcher → Architect → Drafter → Editor → Fact-Checker → Complete
-```
+Each chapter passes through:
+1. **Researcher** → Extract raw material from conversation_chronological.md
+2. **Architect** → Structure using 5-beat arc (Breakthrough → Flashback → Struggle → Shift → Carryover)
+3. **Drafter** → Write in user's voice (Feel it → Name it)
+4. **Editor** → Tighten prose, remove gaudy language, check rhythm
+5. **Fact-Checker** → Verify against source material
 
-| Phase | Expert | Output File |
-|-------|--------|-------------|
-| 1 | Researcher | `research-notes.md` |
-| 2 | Architect | `chapter-outline.md` |
-| 3 | Drafter | `draft-v1.md` |
-| 4 | Editor | `draft-v2.md` + `edit-notes.md` |
-| 5 | Fact-Checker | `fact-check.md` + `draft-final.md` |
+## Quick Commands
 
----
+**To continue writing:**
+"Continue writing the next chapter"
 
-## Session Notes
+**To write specific chapter:**
+"Write Chapter X (Title)"
 
-### May 22, 2026
-- Completed Ch 3: Pistol Squat (~1,280 words)
-- Added cross-chapter redundancy check to Editor
-- Completed Ch 7: Planche (~1,100 words)
-- Both chapters fact-checked against conversation_chronological.md
+**To review a chapter:**
+"Review Chapter X"
