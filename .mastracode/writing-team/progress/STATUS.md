@@ -1,6 +1,6 @@
 # Writing Progress
 
-> **Last Updated**: [Update this when status changes]
+> **Last Updated**: May 22, 2026
 
 ---
 
@@ -20,9 +20,9 @@
 ### Phase 1: The Hook ✅
 - [x] **Prologue** — Pike breakthrough (COMPLETE)
 
-### Phase 2: Richest Material
+### Phase 2: Richest Material ✅
 - [x] **Ch 3: Pistol Squat** — First unassisted rep, ankle healing, surfing carryover ✅
-- [ ] **Ch 7: Planche** — Pike breakthrough, gravity organizing scap
+- [x] **Ch 7: Planche** — Pike breakthrough, gravity organizing scap ✅
 
 ### Phase 3: The Struggle  
 - [ ] **Ch 4: Muscle-Up** — Rhythm emerging, can't control transition
@@ -46,8 +46,8 @@
 |---------|-------|-------------|-------------|-------|
 | Prologue | ✅ Complete | — | — | In `chapters/00-prologue.md` |
 | Ch 3: Pistol | ✅ Complete | Fact-Checker ✓ | ch03-pistol-squat | In `chapters/03-pistol-squat.md` |
-| Ch 7: Planche | Not started | — | — | — |
-| Ch 4: Muscle-Up | Not started | — | — | — |
+| Ch 7: Planche | ✅ Complete | Fact-Checker ✓ | ch07-planche | In `chapters/07-planche.md` |
+| Ch 4: Muscle-Up | Not started | — | — | Next up |
 | Ch 2: Old Way | Not started | — | — | — |
 | Ch 10: Carryover | Not started | — | — | — |
 | Ch 11: Transformation | Not started | — | — | — |
@@ -74,39 +74,10 @@ Researcher → Architect → Drafter → Editor → Fact-Checker → Complete
 
 ---
 
-## How to Update This File
-
-When starting a chapter:
-```markdown
-| **Chapter** | Ch 3: Pistol Squat |
-| **Phase** | Researcher |
-| **Expert** | 01-researcher.md |
-```
-
-When advancing to next expert:
-```markdown
-| **Phase** | Architect |
-| **Expert** | 02-architect.md |
-```
-
-When chapter is complete:
-1. Update chapter row in Status Detail table
-2. Check off in Writing Order
-3. Reset Current State to "Ready to start"
-
----
-
-## Blockers Log
-
-| Date | Chapter | Blocker | Resolution |
-|------|---------|---------|------------|
-| — | — | — | — |
-
----
-
 ## Session Notes
 
-_Use this space to track decisions, questions, or observations across sessions._
-
-### [Date]
-- [notes]
+### May 22, 2026
+- Completed Ch 3: Pistol Squat (~1,280 words)
+- Added cross-chapter redundancy check to Editor
+- Completed Ch 7: Planche (~1,100 words)
+- Both chapters fact-checked against conversation_chronological.md
