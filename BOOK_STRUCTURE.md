@@ -328,6 +328,48 @@ flowchart LR
 
 ---
 
+## Word Count Targets (Based on Publishing Research)
+
+### Industry Standards
+| Category | Word Count Range | Source |
+|----------|------------------|--------|
+| **Self-help books** | 30,000–70,000 words | Bestseller Publishing |
+| **Per chapter (nonfiction)** | 2,000–4,000 words | Industry average |
+| **Short self-help** | ~1,500 words/chapter | "Punchier" books |
+| **Standard self-help** | ~4,000 words/chapter | Most bestsellers |
+
+### Our Targets
+
+| Chapter Type | Target | Section Breakdown |
+|--------------|--------|-------------------|
+| **Prologue** | 1,500–2,000 words | Hook + setup + "how did I get here?" |
+| **Skill Chapters (3-7)** | 2,500–3,500 words | Full 5-beat arc with depth |
+| **Principle Chapters (8-10)** | 2,000–3,000 words | Concept + multiple examples |
+| **Integration Chapters (11-12)** | 2,500–3,500 words | Multiple domains + synthesis |
+
+### Section Word Targets (Within Each Chapter)
+
+| Section | Target | What It Needs |
+|---------|--------|---------------|
+| ⚡ Breakthrough | 300–500 words | Immediate sensation, hook |
+| ⏪ Flashback | 400–600 words | Stakes, where you started |
+| 🔥 **Struggle** | **600–1,000 words** | Multiple sessions, failed attempts, the grind |
+| 💡 Shift | 400–600 words | The click, bolded principle |
+| 🌊 Carryover | 300–500 words | Concrete proof with specifics |
+
+> **Key insight**: The STRUGGLE section needs the most depth. Readers need to feel the wall before the breakthrough lands. Include multiple training sessions, specific failed attempts, sensations of things not working.
+
+### Total Book Projection
+
+| Scenario | Per Chapter | 12 Chapters | Assessment |
+|----------|-------------|-------------|------------|
+| **Current** | ~800 words | ~9,600 | ❌ Too short for publishing |
+| **Minimum** | 2,000 words | 24,000 | ⚠️ On the short side |
+| **Target** | 3,000 words | 36,000 | ✅ Solid self-help length |
+| **Stretch** | 3,500 words | 42,000 | ✅ Strong positioning |
+
+---
+
 ## What Makes This Book Different (Your Unique Contributions)
 
 ### The Landscape: What Already Exists
