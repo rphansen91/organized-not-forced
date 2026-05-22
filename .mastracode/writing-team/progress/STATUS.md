@@ -21,7 +21,7 @@
 - [x] **Prologue** — Pike breakthrough (COMPLETE)
 
 ### Phase 2: Richest Material
-- [ ] **Ch 3: Pistol Squat** — First unassisted rep, ankle healing, surfing carryover
+- [x] **Ch 3: Pistol Squat** — First unassisted rep, ankle healing, surfing carryover ✅
 - [ ] **Ch 7: Planche** — Pike breakthrough, gravity organizing scap
 
 ### Phase 3: The Struggle  
@@ -45,7 +45,7 @@
 | Chapter | Phase | Last Expert | Working Dir | Notes |
 |---------|-------|-------------|-------------|-------|
 | Prologue | ✅ Complete | — | — | In `chapters/00-prologue.md` |
-| Ch 3: Pistol | Not started | — | — | — |
+| Ch 3: Pistol | ✅ Complete | Fact-Checker ✓ | ch03-pistol-squat | In `chapters/03-pistol-squat.md` |
 | Ch 7: Planche | Not started | — | — | — |
 | Ch 4: Muscle-Up | Not started | — | — | — |
 | Ch 2: Old Way | Not started | — | — | — |
