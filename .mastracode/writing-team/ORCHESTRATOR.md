@@ -221,6 +221,39 @@ This keeps readers turning pages through the technical content.
 
 ---
 
+## Resource Callouts (Every 2-3 Chapters)
+
+From Bestseller Publishing: *"Every 2-3 chapters should have a resource/lead magnet—NOT just website links—actual valuable content."*
+
+### Resource Placement Plan
+
+| After Chapter | Resource Type | Idea |
+|---------------|---------------|------|
+| **Ch 3 (Pistol)** | Checklist | "5 Warm-Up Questions I Ask Every Session" |
+| **Ch 6 (HSPU)** | Video | "The 3 Overhead Tests" |
+| **Ch 9 (Principles)** | Blueprint | "Force Transfer Self-Test" |
+| **Ch 12 (Return)** | Full Guide | "The Complete Alignment Checklist" |
+
+### Resource Format in Chapter
+
+```markdown
+---
+
+**Go Deeper:** [Resource name and 1-sentence description]
+
+→ [Link or "Available at [website]"]
+
+---
+```
+
+### Checklist for Fact-Checker
+
+- [ ] Does this chapter need a resource? (Check if 2-3 chapters have passed without one)
+- [ ] If yes, is it defined in the Carryover section?
+- [ ] Is the resource genuinely valuable (not just a website link)?
+
+---
+
 ## Current Status
 
 → See `progress/STATUS.md` for live state

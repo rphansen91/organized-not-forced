@@ -108,7 +108,52 @@ Compare to prologue. Check:
 - [ ] Short punchy lines mixed with longer ones
 - [ ] Italics used sparingly for emphasis
 
-### Pass 7: Cross-Chapter Redundancy
+### Pass 6b: Reader Hook Check (NEW)
+
+**Critical check** — ensures chapter speaks to the reader, not just about the author.
+
+| Check | Where | Fix |
+|-------|-------|-----|
+| **Reader problem hook** | Within first 5 lines | Must directly address reader's version of the struggle |
+| **Uses "you" or "your"** | In the hook | Creates mirror for reader |
+| **Chapter bridge** | Last lines before closing | Must point forward to next chapter |
+
+**Why this matters:**
+
+BSP says: *"Your story can be powerful, but it should not be the center of gravity unless your audience already knows you."*
+
+Your story becomes **proof**, not memoir, when the reader sees themselves in it.
+
+**Examples of good reader hooks:**
+
+> If you've ever hit the bottom of a squat and felt like your body was fighting you instead of helping you, you know the wall I'm talking about.
+
+> If you've ever had the strength to pull high but stalled at the transition—like your shoulders just give out—this chapter is for you.
+
+**The check fails if:**
+- No reader hook in first 5 lines
+- Opening is only about author's experience (doesn't mirror reader's potential experience)
+- No chapter bridge pointing forward
+
+### Pass 7: "Who Is This For?" Check (Prologue Only)
+
+**For Prologue only** — ensure the book explicitly states who it's for.
+
+BSP says: *"Your book should SELECT readers, not just attract them."*
+
+The Prologue should contain a paragraph (somewhere after establishing the story) that directly addresses the reader:
+
+**Template:**
+> If you've ever felt like you were fighting your own body—stretching endlessly, grinding through reps, collecting cues that never stick—this book is for you. Not because I have all the answers. But because I found something that changed everything, and I think it might change things for you too.
+
+**Check:**
+- [ ] Prologue explicitly names the reader's experience
+- [ ] Uses "you" language (not just "I")
+- [ ] Creates invitation (not lecture)
+
+---
+
+### Pass 8: Cross-Chapter Redundancy
 
 **Critical**: Search all existing chapters in `chapters/` for repeated content.
 
@@ -217,6 +262,10 @@ Before passing to Fact-Checker, verify:
 - [ ] Core principle is still bolded
 - [ ] Opening still hooks
 - [ ] Closing still resonates
+- [ ] **READER HOOK CHECK PASSED:**
+  - [ ] Reader problem hook within first 5 lines
+  - [ ] Uses "you" or "your" (speaks directly to reader)
+  - [ ] Chapter bridge at end (points forward to next chapter)
 - [ ] **DEPTH CHECK PASSED:**
   - [ ] Total word count ≥ 2,000 (target 2,500-3,500)
   - [ ] Struggle section ≥ 600 words

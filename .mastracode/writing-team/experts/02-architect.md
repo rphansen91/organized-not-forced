@@ -244,6 +244,49 @@ Save to `working/[chapter-name]/chapter-outline.md`:
 **Closing beat:**
 [End on resonance, not lecture — mirror the opening if possible]
 
+**Chapter Bridge (REQUIRED):**
+[1-sentence forward hook to the next chapter — creates momentum]
+
+---
+
+## Chapter Bridge Requirement
+
+Every chapter must end with a **forward bridge** — a 1-sentence hook that creates curiosity for what's next.
+
+### Why This Matters
+
+BSP says: *"Close chapters with bridge to next chapter. Complete any open loops from the story."*
+
+Without a bridge, readers finish a chapter, close the book, and forget to come back. The bridge creates **momentum**.
+
+### The Formula
+
+After your carryover proof, before the closing resonance line:
+
+```
+[Carryover proof — where else this showed up]
+[BRIDGE — 1 sentence pointing forward]
+[Closing resonance — "Organized, not forced" equivalent]
+```
+
+### Examples
+
+**Chapter 3 (Pistol) → Chapter 4 (Muscle-Up):**
+> The pistol taught me what my ankle needed to learn. But my shoulder was a different problem entirely—one that would take months to untangle.
+
+**Chapter 7 (Planche) → Chapter 8 (Skeleton Before Muscles):**
+> Force transfer wasn't just about the pike. It was a principle that would reshape how I thought about every movement.
+
+**Chapter 10 (Joints) → Chapter 11 (Carryover):**
+> The warmup revealed the control gap. What I didn't expect was how that gap would show up everywhere—not just in training.
+
+### Checklist
+
+- [ ] Bridge appears after carryover proof
+- [ ] Creates curiosity (not just "next we'll talk about...")
+- [ ] Connects current chapter's insight to next chapter's territory
+- [ ] Is 1-2 sentences max (brief, punchy)
+
 ---
 
 ## Connections
@@ -275,6 +318,7 @@ Before passing to Drafter, verify:
 - [ ] **Open loop is defined** (curiosity created in Breakthrough, closed in Shift)
 - [ ] Transitions between beats are planned
 - [ ] Core principle is identified and ready to bold
+- [ ] **Chapter bridge is defined** (forward hook to next chapter)
 - [ ] **Word count targets total 2,500-3,500 words**
 - [ ] Carryover has proof (or is flagged as speculative)
 

@@ -99,6 +99,53 @@ Every insight follows this pattern:
 
 ---
 
+## Reader Problem Hook (REQUIRED)
+
+**Within the first 5 lines of every chapter**, name the reader's version of the struggle. Your story becomes proof, not just memoir.
+
+### Why This Matters
+
+Best Seller Publishing says: *"Your story can be powerful, but it should not be the center of gravity unless your audience already knows you. How does what happened to me help the reader solve what is happening to them?"*
+
+Your breakthrough is cool. But the reader is asking: **"Why should I care?"**
+
+Answer that immediately.
+
+### The Formula
+
+After your sensory opening, add 1-2 sentences mirroring the reader's experience:
+
+```
+[Breakthrough moment — your sensation]
+[Reader hook — their version of the problem]
+```
+
+### Examples
+
+**Pistol Squat chapter:**
+> I stood up from the bottom without grabbing anything.
+> 
+> If you've ever hit the bottom of a squat and felt like your body was fighting you instead of helping you, you know the wall I'm talking about.
+
+**Muscle-Up chapter:**
+> The bar reached my chest and my elbows started moving back on their own.
+> 
+> If you've ever had the strength to pull high but stalled at the transition—like your shoulders just give out—this chapter is for you.
+
+**Joints chapter:**
+> The ankle pop was quieter today.
+> 
+> If you've ever stretched endlessly, foam rolled religiously, and still felt tight—this might explain why.
+
+### Checklist
+
+- [ ] Reader hook appears within first 5 lines
+- [ ] Uses "you" or "your" (speaks directly to reader)
+- [ ] Names a specific struggle (not generic)
+- [ ] Makes your story the proof, not the point
+
+---
+
 ## Process
 
 ### Step 1: Read the Outline and Research Notes
@@ -106,6 +153,7 @@ Every insight follows this pattern:
 Internalize:
 - The core principle (this gets bolded)
 - The breakthrough moment (this opens the chapter)
+- **The reader's version of this struggle** (for the hook)
 - The transitions between beats
 - Any flags from the Architect
 
@@ -195,6 +243,7 @@ Use `---` to mark section breaks. The Editor may adjust these.
 Before passing to Editor, verify:
 
 - [ ] Opens with immediate sensation (not context, not backstory)
+- [ ] **Reader problem hook within first 5 lines** (makes story proof, not just memoir)
 - [ ] Stays in first person experience throughout
 - [ ] Core principle is bolded in the SHIFT section
 - [ ] No lecture mode ("you should...", "the key is...")
