@@ -20,7 +20,7 @@ Months earlier, I couldn't do a single pistol without holding onto something.
 
 The pistol squat was one of five goals I'd written down at the start of the year. Muscle-up. Full planche. Handstand push-up. Front lever. Pistol squat.
 
-At the time, I could do forty push-ups and maybe five pull-ups. I had a base, but these skills felt like a different language.
+I had a base, but these skills felt like a different language.
 
 The pistol seemed approachable. One leg. Squat down. Stand up. How hard could it be?
 

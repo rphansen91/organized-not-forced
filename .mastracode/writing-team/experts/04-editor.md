@@ -89,6 +89,25 @@ Compare to prologue. Check:
 - [ ] Short punchy lines mixed with longer ones
 - [ ] Italics used sparingly for emphasis
 
+### Pass 6: Cross-Chapter Redundancy
+
+**Critical**: Search all existing chapters in `chapters/` for repeated content.
+
+| Check | How | Fix |
+|-------|-----|-----|
+| **Repeated stats** | Search for baseline numbers (40 pushups, 5 pullups, etc.) | Only state once — in prologue or first mention |
+| **Repeated origin story** | Search for "five goals" / "start of the year" | Reference briefly, don't retell |
+| **Repeated insights** | Search for core principles already stated | Build on them, don't restate |
+| **Repeated breakthrough descriptions** | Search for similar phrasing | Each chapter needs fresh language |
+
+**The rule**: If the prologue (or an earlier chapter) already established a fact, the current chapter can *reference* it but shouldn't *restate* it.
+
+Example:
+- ❌ "At the time, I could do forty push-ups and maybe five pull-ups."
+- ✅ "I had a base, but these skills felt like a different language."
+
+The reader remembers. Trust them.
+
 ---
 
 ## The Kill List
@@ -150,6 +169,7 @@ Also create `working/[chapter-name]/edit-notes.md`:
 - [ ] Rhythm issues: [where adjusted]
 - [ ] Pacing issues: [sections tightened/expanded]
 - [ ] Voice drift: [where corrected]
+- [ ] Cross-chapter redundancy: [any repeated stats/facts removed]
 
 ## Word Count
 - Draft v1: [count]
@@ -174,6 +194,7 @@ Before passing to Fact-Checker, verify:
 - [ ] Rhythm flows when read aloud
 - [ ] Each section earns its length
 - [ ] Voice matches prologue
+- [ ] No redundant stats/facts from earlier chapters
 - [ ] Core principle is still bolded
 - [ ] Opening still hooks
 - [ ] Closing still resonates
