@@ -4,6 +4,8 @@ I stood up from the bottom without grabbing anything.
 
 No wall. No pole. No rings. Just my left leg, the floor, and a balance I'd never had before.
 
+If you've ever hit the bottom of a squat and felt like your body was fighting you instead of helping you, you know the wall I'm talking about.
+
 I did it again. And again. Multiple sets. Not lucky reps—*real* reps.
 
 The bottom of a pistol squat is where most people fail. Your butt drops below your knee, your ankle runs out of range, your pelvis tilts, and you either fall backward or fight your way up. I'd lived in that fight for months.
@@ -115,5 +117,7 @@ And once it worked in the gym, it worked everywhere.
 Same ankle. Same knee. Same hip.
 
 Different relationship between them.
+
+The pistol had fixed something my stretching never could. But my shoulders were a different problem—one that would take months to untangle.
 
 Organized, not forced.

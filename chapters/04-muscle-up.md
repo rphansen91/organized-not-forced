@@ -4,6 +4,8 @@ I pulled, and my body didn't come apart.
 
 That was the difference. Not the height—I'd hit chest height before. Not the strength—I had plenty. The difference was that everything stayed *together*. Ribs stacked. Core connected. Lats driving the pull instead of my arms yanking. The hollow body I'd been chasing finally held.
 
+If you've ever had the strength to pull high but stalled at the transition—like your shoulders just give out—this chapter is for you.
+
 At the top of the pull, something new happened: I didn't stall out.
 
 ---
@@ -87,5 +89,7 @@ It's not about pulling higher. It's about pulling *through*.
 Same arms. Same lats. Same explosive drive.
 
 Different relationship between them.
+
+The muscle-up was teaching me how pulling worked. But pushing overhead would expose a whole different set of problems—ones I'd have to solve from the ground up.
 
 Organized, not forced.

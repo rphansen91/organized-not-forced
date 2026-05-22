@@ -46,6 +46,8 @@ I could do forty push-ups. Maybe five pull-ups on a good day. I had a base—mot
 
 And trying harder wasn't working.
 
+If you've ever felt like you were fighting your own body—stretching endlessly, grinding through reps, collecting cues that never stick—this book is for you. Not because I have all the answers. But because I found something that changed everything, and I think it might change things for you too.
+
 What I didn't know yet—what I'd spend the next year discovering—was that I'd been asking the wrong question entirely.
 
 I wasn't weak. I was *disorganized*.

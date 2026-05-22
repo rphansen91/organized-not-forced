@@ -4,6 +4,8 @@ I'd had that pop in my ankle for years.
 
 Every step, a click. Every squat, a grind. It wasn't painful, just *there*—a constant reminder that something wasn't quite right. I'd tried everything: stretching, yoga, ankle circles, foot massage, calf massage. I'd roll my calves until they were tender, hold stretches until my legs shook, do all the mobility drills the internet told me to do.
 
+If you've ever stretched endlessly and wondered why the tightness always comes back—this chapter explains what finally worked.
+
 Nothing stuck. The tightness always came back. The pop never left.
 
 Then I started training pistol squats.
@@ -83,5 +85,7 @@ The tightness releases on its own.
 Same ankle. Same hamstrings. Same shoulders.
 
 Different relationship to movement.
+
+The joints were unlocked. But there was still one problem I kept running into—the old patterns that crept back under load. Breaking those would require something different.
 
 Organized, not forced.

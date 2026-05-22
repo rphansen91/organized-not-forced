@@ -6,6 +6,8 @@ I set up for another pike pushup. Feet on the bench, hands on the floor, hips hi
 
 But this time, something shifted.
 
+If you've ever felt like you're fighting your own shoulders—squeezing harder, forcing them down, and getting nowhere—this is what finally cracked it.
+
 I wasn't pressing. I was letting. Letting my ribs settle. Letting my shoulder blades find the ribcage underneath them. Letting gravity do what I'd been trying to force with muscle.
 
 My shoulders didn't fight. They landed.
@@ -103,5 +105,7 @@ That's what this training is supposed to do. Not just build strength. Build a bo
 Same ocean. Same board.
 
 Different relationship to load.
+
+Force transfer wasn't just about the pike. It was a principle that would reshape how I thought about every movement—especially the ones I'd been ignoring.
 
 Organized, not forced.
