@@ -4,7 +4,7 @@
 
 | Chapter | Title | Words | Status |
 |---------|-------|-------|--------|
-| 0 | Prologue | 564 | ✅ Complete |
+| 0 | Prologue | 1,449 | ✅ Complete (expanded) |
 | 1 | The Five Goals | 1,233 | ✅ Complete |
 | 2 | The Old Way | 1,223 | ✅ Complete |
 | 3 | The Pistol Squat | 1,504 | ✅ Complete |
@@ -23,8 +23,8 @@
 ## Summary
 
 - **Total Chapters:** 13 (Prologue + 12 chapters)
-- **Total Word Count:** 17,339 words
-- **Average Chapter Length:** 1,334 words
+- **Total Word Count:** 18,224 words
+- **Average Chapter Length:** 1,402 words
 - **Status:** COMPLETE ✅
 
 ---
