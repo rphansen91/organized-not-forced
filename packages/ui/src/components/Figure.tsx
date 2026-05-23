@@ -3,6 +3,7 @@
 export interface JointPosition {
   x: number;
   y: number;
+  z?: number; // Optional depth for 3D horizontal poses
 }
 
 export interface FigureProps {

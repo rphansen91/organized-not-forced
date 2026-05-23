@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { VitruvianDiagram, Figure, BookCover, allPoses } from '@onf/ui';
 import type { PoseDefinition } from '@onf/ui';
+import { Vitruvian3D } from './components/Vitruvian3D';
 import './App.css';
 
 function PoseCard({ pose, isSelected, onClick }: { 
@@ -42,7 +43,12 @@ function App() {
   const [showSpiral, setShowSpiral] = useState(false);
   const [showAnatomy, setShowAnatomy] = useState(true);
   const [figureOpacity, setFigureOpacity] = useState(0.7);
-  const [viewMode, setViewMode] = useState<'diagram' | 'cover'>('cover');
+  const [autoRotate, setAutoRotate] = useState(false);
+  const [animateGeometry, setAnimateGeometry] = useState(true);
+  const [circleCount, setCircleCount] = useState(5);
+  const [squareCount, setSquareCount] = useState(2);
+  const [radialLineCount, setRadialLineCount] = useState(8);
+  const [viewMode, setViewMode] = useState<'diagram' | 'cover' | '3d'>('3d');
 
   return (
     <div className="app">
@@ -55,6 +61,12 @@ function App() {
         <section className="diagram-section">
           {/* View Mode Toggle */}
           <div className="view-toggle">
+            <button 
+              className={viewMode === '3d' ? 'active' : ''} 
+              onClick={() => setViewMode('3d')}
+            >
+              3D View
+            </button>
             <button 
               className={viewMode === 'diagram' ? 'active' : ''} 
               onClick={() => setViewMode('diagram')}
@@ -70,7 +82,29 @@ function App() {
           </div>
 
           <div className="diagram-container">
-            {viewMode === 'cover' ? (
+            {viewMode === '3d' ? (
+              <Vitruvian3D
+                joints={selectedPose.joints}
+                ghostJoints={selectedPose.ghostJoints}
+                size={450}
+                showCircles={showCircles}
+                showSquares={showSquares}
+                showRadialLines={showRadialLines}
+                showSpiral={showSpiral}
+                showAnatomy={showAnatomy}
+                autoRotate={autoRotate}
+                animateGeometry={animateGeometry}
+                circleCount={circleCount}
+                squareCount={squareCount}
+                radialLineCount={radialLineCount}
+                cameraPosition={
+                  selectedPose.name.toLowerCase().includes('planche') ||
+                  selectedPose.name.toLowerCase().includes('lever')
+                    ? [3.5, 0, 0]  // Side view for horizontal poses
+                    : [0, 0, 3.5] // Front view for everything else
+                }
+              />
+            ) : viewMode === 'cover' ? (
               <BookCover
                 pose={selectedPose.joints}
                 width={400}
@@ -111,29 +145,59 @@ function App() {
 
           <div className="controls">
             <h3>Display Options</h3>
-            <label>
+            <label className="control-row">
               <input
                 type="checkbox"
                 checked={showCircles}
                 onChange={(e) => setShowCircles(e.target.checked)}
               />
-              Concentric Circles
+              <span>Circles</span>
+              {viewMode === '3d' && showCircles && (
+                <input
+                  type="number"
+                  min="1"
+                  max="8"
+                  value={circleCount}
+                  onChange={(e) => setCircleCount(Math.max(1, Math.min(8, parseInt(e.target.value) || 1)))}
+                  className="count-input"
+                />
+              )}
             </label>
-            <label>
+            <label className="control-row">
               <input
                 type="checkbox"
                 checked={showSquares}
                 onChange={(e) => setShowSquares(e.target.checked)}
               />
-              Da Vinci Squares
+              <span>Squares</span>
+              {viewMode === '3d' && showSquares && (
+                <input
+                  type="number"
+                  min="1"
+                  max="5"
+                  value={squareCount}
+                  onChange={(e) => setSquareCount(Math.max(1, Math.min(5, parseInt(e.target.value) || 1)))}
+                  className="count-input"
+                />
+              )}
             </label>
-            <label>
+            <label className="control-row">
               <input
                 type="checkbox"
                 checked={showRadialLines}
                 onChange={(e) => setShowRadialLines(e.target.checked)}
               />
-              Radial Lines (8)
+              <span>Radial Lines</span>
+              {viewMode === '3d' && showRadialLines && (
+                <input
+                  type="number"
+                  min="2"
+                  max="16"
+                  value={radialLineCount}
+                  onChange={(e) => setRadialLineCount(Math.max(2, Math.min(16, parseInt(e.target.value) || 2)))}
+                  className="count-input"
+                />
+              )}
             </label>
             <label>
               <input
@@ -151,6 +215,26 @@ function App() {
               />
               Anatomical Details
             </label>
+            {viewMode === '3d' && (
+              <>
+                <label>
+                  <input
+                    type="checkbox"
+                    checked={animateGeometry}
+                    onChange={(e) => setAnimateGeometry(e.target.checked)}
+                  />
+                  Animate Geometry (Fibonacci)
+                </label>
+                <label>
+                  <input
+                    type="checkbox"
+                    checked={autoRotate}
+                    onChange={(e) => setAutoRotate(e.target.checked)}
+                  />
+                  Rotate Camera
+                </label>
+              </>
+            )}
             <label>
               Figure Opacity: {Math.round(figureOpacity * 100)}%
               <input
