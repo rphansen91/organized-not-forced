@@ -351,6 +351,11 @@ body {
   pointer-events: none;
 }
 
+/* Ensure all children (including Three.js canvas) also ignore pointer events when hidden */
+.sticky-figure-container.figure-hidden * {
+  pointer-events: none !important;
+}
+
 /* Hide sticky figure on mobile - use inline figures instead */
 @media (max-width: 1023px) {
   .sticky-figure-container {
