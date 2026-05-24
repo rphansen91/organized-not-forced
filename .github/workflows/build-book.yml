@@ -94,3 +94,27 @@ jobs:
         with:
           name: organized-not-forced-all
           path: output/
+
+      - name: Update Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: latest
+          name: "Organized, Not Forced - Latest Build"
+          body: |
+            ## Organized, Not Forced
+            Movement Lessons from Bodyweight Training
+
+            **Downloads:**
+            - **EPUB** - For e-readers and mobile devices (Kindle app recommended on iOS)
+            - **PDF** - For desktop reading and printing
+
+            14 chapters, ~17,000 words
+
+            *Note: Apple Books on iOS 18.5 has a known bug that breaks EPUB pagination. Use the Kindle app on iPhone instead.*
+          files: |
+            output/organized-not-forced.epub
+            output/organized-not-forced.pdf
+          prerelease: false
+          make_latest: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
