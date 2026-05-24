@@ -1,0 +1,62 @@
+---
+title: "Organized, Not Forced"
+subtitle: "Movement Lessons from Bodyweight Training"
+author: "Ryan P. Hansen"
+lang: en-US
+date: 2026
+
+# Disable auto-generated title page (we use frontmatter.md instead)
+title-page: false
+
+# Cover image for EPUB
+cover-image: assets/organized-not-forced-cover-final.png
+
+# Rights and description
+rights: "© 2026 Ryan P. Hansen. All rights reserved."
+description: |
+  A movement memoir exploring five calisthenics skills—the muscle-up, 
+  full planche, handstand push-up, front lever, and pistol squat—and 
+  the deeper principles they reveal about strength, alignment, and 
+  how organization trumps force.
+
+# EPUB metadata
+identifier:
+  - scheme: UUID
+    text: organized-not-forced-2026
+
+# Publisher info (update when you have ISBN)
+# publisher: 
+# isbn:
+
+# Keywords for Amazon
+keywords:
+  - calisthenics
+  - bodyweight training
+  - movement
+  - fitness memoir
+  - strength training
+  - gymnastics
+  - mobility
+
+# Table of contents settings
+toc: false
+toc-title: "Contents"
+
+# Document class settings for PDF
+documentclass: book
+papersize: letter
+geometry:
+  - top=1in
+  - bottom=1in
+  - left=1in
+  - right=1in
+
+# Typography
+mainfont: Georgia
+monofont: Menlo
+fontsize: 11pt
+linestretch: 1.3
+
+# Chapter styling
+numbersections: false
+...

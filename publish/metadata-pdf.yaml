@@ -1,0 +1,7 @@
+---
+# PDF-specific metadata (no title page - frontmatter.md handles it)
+lang: en-US
+
+# Disable auto-generated title page
+title-page: false
+---
