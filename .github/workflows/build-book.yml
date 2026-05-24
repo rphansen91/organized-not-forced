@@ -102,6 +102,13 @@ jobs:
           name: organized-not-forced-all
           path: output/
 
+      - name: Delete existing latest tag
+        run: |
+          git push origin :refs/tags/latest || true
+          git tag -d latest || true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Update Release
         uses: softprops/action-gh-release@v2
         with:
