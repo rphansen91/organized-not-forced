@@ -2,6 +2,7 @@ import { useRef, useCallback, useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { motion, useScroll, useMotionValueEvent } from 'framer-motion'
 import { ScrollingFigure, POSE_SEQUENCE } from '../components/ScrollingFigure'
+import { MobilePoseFigure } from '../components/MobilePoseFigure'
 import { EmailSignup } from '../components/EmailSignup'
 
 // Animation variants
@@ -110,6 +111,7 @@ export function Component() {
       {/* Scroll-linked section with zig-zagging figure */}
       <div className="scroll-journey" ref={scrollContainerRef}>
         {/* Figure container - switches sides based on scroll, hides when past journey */}
+        {/* Only shown on desktop (1024px+), hidden on mobile via CSS */}
         <div className={`sticky-figure-container ${figureOnRight ? 'figure-right' : 'figure-left'} ${figureHidden ? 'figure-hidden' : ''}`}>
           <ScrollingFigure scrollProgress={scrollProgress} />
           
@@ -139,6 +141,10 @@ export function Component() {
         <div className="scroll-content">
           {/* Section 1: Hero / Vitruvian - content on RIGHT */}
           <section id="section-hero" className="scroll-section content-right">
+            {/* Mobile-only figure */}
+            <div className="mobile-figure-wrapper">
+              <MobilePoseFigure pose="vitruvian" size={260} />
+            </div>
             <motion.div 
               className="section-content"
               initial="hidden"
@@ -158,6 +164,9 @@ export function Component() {
 
           {/* Section 2: Pistol Squat - content on LEFT */}
           <section id="section-pistol" className="scroll-section content-left">
+            <div className="mobile-figure-wrapper">
+              <MobilePoseFigure pose="pistol" size={260} />
+            </div>
             <motion.div 
               className="section-content"
               initial="hidden"
@@ -179,6 +188,9 @@ export function Component() {
 
           {/* Section 3: Muscle-Up - content on RIGHT */}
           <section id="section-muscleup" className="scroll-section content-right">
+            <div className="mobile-figure-wrapper">
+              <MobilePoseFigure pose="muscleup" size={260} />
+            </div>
             <motion.div 
               className="section-content"
               initial="hidden"
@@ -200,6 +212,9 @@ export function Component() {
 
           {/* Section 4: Front Lever - content on LEFT */}
           <section id="section-frontlever" className="scroll-section content-left">
+            <div className="mobile-figure-wrapper">
+              <MobilePoseFigure pose="frontlever" size={260} />
+            </div>
             <motion.div 
               className="section-content"
               initial="hidden"
@@ -221,6 +236,9 @@ export function Component() {
 
           {/* Section 5: Planche - content on RIGHT */}
           <section id="section-planche" className="scroll-section content-right">
+            <div className="mobile-figure-wrapper">
+              <MobilePoseFigure pose="planche" size={260} />
+            </div>
             <motion.div 
               className="section-content"
               initial="hidden"
