@@ -11,7 +11,7 @@ export function Component() {
         <p className="book-subtitle">
           A year-long journey to master five calisthenics skills through understanding how the body organizes force.
         </p>
-        <a href={BOOK_PURCHASE_URL} className="cta-button book-cta">
+        <a href={BOOK_PURCHASE_URL} className="cta-button cta-primary book-cta">
           Get the Full Book →
         </a>
       </header>
@@ -34,7 +34,7 @@ export function Component() {
 
       <footer className="book-footer">
         <p>Preview each chapter, then get the full book.</p>
-        <a href={BOOK_PURCHASE_URL} className="cta-button">
+        <a href={BOOK_PURCHASE_URL} className="cta-button cta-primary">
           Get the Full Book →
         </a>
       </footer>

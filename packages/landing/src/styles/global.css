@@ -1107,19 +1107,21 @@ body {
 .chapter-card {
   display: flex;
   flex-direction: column;
-  background: var(--color-surface-1);
-  border: 1px solid var(--color-border);
-  border-radius: 16px;
+  background: #1a1a1a;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
   overflow: hidden;
   text-decoration: none;
   color: inherit;
   transition: all var(--transition-base);
+  padding: var(--space-lg);
 }
 
 .chapter-card:hover {
   border-color: var(--color-accent);
-  transform: translateY(-8px);
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5), 0 0 40px var(--color-accent-glow);
+  background: #1f1f1f;
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4), 0 0 20px var(--color-accent-glow);
 }
 
 .chapter-image-container {
@@ -1153,6 +1155,7 @@ body {
   letter-spacing: var(--letter-spacing-wide);
   text-transform: uppercase;
   color: var(--color-accent);
+  margin-bottom: var(--space-xs);
 }
 
 .chapter-title {
@@ -1160,7 +1163,18 @@ body {
   font-size: var(--font-size-lg);
   font-weight: 600;
   line-height: var(--line-height-snug);
+  margin: 0 0 var(--space-sm) 0;
+}
+
+.chapter-card .chapter-teaser {
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-base);
+  color: var(--color-text-secondary);
   margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .book-footer {
