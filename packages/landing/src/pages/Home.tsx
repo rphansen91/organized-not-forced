@@ -27,7 +27,7 @@ const staggerContainer = {
 const SECTION_IDS = ['section-hero', 'section-pistol', 'section-muscleup', 'section-frontlever', 'section-planche', 'section-signup']
 
 // Fixed scroll navigation button (down only)
-function FixedScrollNav({ currentSectionIndex }: { currentSectionIndex: number }) {
+function FixedScrollNav({ currentSectionIndex, isHidden }: { currentSectionIndex: number; isHidden: boolean }) {
   const canGoDown = currentSectionIndex < SECTION_IDS.length - 1
 
   const scrollToNext = useCallback(() => {
@@ -40,7 +40,8 @@ function FixedScrollNav({ currentSectionIndex }: { currentSectionIndex: number }
     }
   }, [currentSectionIndex])
 
-  if (!canGoDown) return null
+  // Hide if past journey sections or at last section
+  if (!canGoDown || isHidden) return null
 
   return (
     <button 
@@ -93,7 +94,10 @@ export function Component() {
         // Hide figure when the scroll-journey container's bottom enters the top half of viewport
         // This ensures figure is hidden before signup content is fully visible
         const viewportHeight = window.innerHeight
-        setFigureHidden(rect.bottom < viewportHeight * 0.7)
+        const isJourneyPassed = rect.bottom < viewportHeight * 0.7
+        // Also hide when near the bottom of the page (within 100px of footer)
+        const isAtPageBottom = (window.innerHeight + window.scrollY) >= document.body.scrollHeight - 100
+        setFigureHidden(isJourneyPassed || isAtPageBottom)
       }
     }
     
@@ -106,7 +110,7 @@ export function Component() {
   return (
     <div className="home">
       {/* Fixed scroll navigation */}
-      <FixedScrollNav currentSectionIndex={currentSectionIndex} />
+      <FixedScrollNav currentSectionIndex={currentSectionIndex} isHidden={figureHidden} />
       
       {/* Scroll-linked section with zig-zagging figure */}
       <div className="scroll-journey" ref={scrollContainerRef}>
