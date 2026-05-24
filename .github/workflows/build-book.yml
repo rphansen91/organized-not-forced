@@ -6,6 +6,7 @@ on:
     paths:
       - 'chapters/**'
       - 'publish/**'
+      - '.github/workflows/build-book.yml'
   workflow_dispatch:
 
 permissions:
