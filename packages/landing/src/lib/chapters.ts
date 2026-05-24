@@ -114,5 +114,5 @@ export function getAdjacentChapters(slug: string): { prev?: Chapter; next?: Chap
   }
 }
 
-// Placeholder for distribution link - update when KDP is live
-export const BOOK_PURCHASE_URL = '#coming-soon'
+// Link to GitHub Release with EPUB/PDF downloads
+export const BOOK_PURCHASE_URL = 'https://github.com/rphansen91/organized-not-forced/releases/tag/v1.0.0'
