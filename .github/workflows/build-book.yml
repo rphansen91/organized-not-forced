@@ -3,6 +3,9 @@ name: Build Book
 on:
   push:
     branches: [main]
+    paths:
+      - 'chapters/**'
+      - 'publish/**'
   workflow_dispatch:
 
 jobs:
@@ -108,7 +111,7 @@ jobs:
             - **EPUB** - For e-readers and mobile devices (Kindle app recommended on iOS)
             - **PDF** - For desktop reading and printing
 
-            14 chapters, ~17,000 words
+            Prologue + 12 chapters, ~17,000 words
 
             *Note: Apple Books on iOS 18.5 has a known bug that breaks EPUB pagination. Use the Kindle app on iPhone instead.*
           files: |
