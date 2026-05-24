@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <!-- Simplified Pistol Squat Figure for Favicon -->
+  <rect width="32" height="32" fill="#0a0a0a"/>
+  <g stroke="#d4af37" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Head -->
+    <circle cx="16" cy="6" r="2.5" fill="none"/>
+    
+    <!-- Neck to Shoulders -->
+    <line x1="16" y1="8.5" x2="16" y2="10"/>
+    <line x1="12" y1="10" x2="20" y2="10"/>
+    
+    <!-- Arms extended -->
+    <line x1="12" y1="10" x2="6" y2="11"/>
+    <line x1="20" y1="10" x2="26" y2="11"/>
+    <circle cx="6" cy="11" r="1.5" fill="none"/>
+    <circle cx="26" cy="11" r="1.5" fill="none"/>
+    
+    <!-- Torso -->
+    <line x1="16" y1="10" x2="16" y2="18"/>
+    
+    <!-- Hips -->
+    <line x1="14" y1="18" x2="18" y2="18"/>
+    
+    <!-- Standing leg (bent) -->
+    <line x1="14" y1="18" x2="12" y2="24"/>
+    <line x1="12" y1="24" x2="14" y2="29"/>
+    <circle cx="12" cy="24" r="1.5" fill="none"/>
+    <circle cx="14" cy="29" r="1.5" fill="none"/>
+    
+    <!-- Extended leg -->
+    <line x1="18" y1="18" x2="24" y2="19"/>
+    <line x1="24" y1="19" x2="29" y2="20"/>
+    <circle cx="24" cy="19" r="1.5" fill="none"/>
+    <circle cx="29" cy="20" r="1.5" fill="none"/>
+  </g>
+</svg>

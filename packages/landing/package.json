@@ -1,0 +1,34 @@
+{
+  "name": "@onf/landing",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite-react-ssg build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@onf/ui": "workspace:*",
+    "@react-three/drei": "^10.7.7",
+    "@react-three/fiber": "^9.6.1",
+    "framer-motion": "^12.40.0",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "react-markdown": "^10.1.0",
+    "react-router-dom": "^6.30.1",
+    "remark-gfm": "^4.0.1",
+    "three": "^0.184.0",
+    "vite-react-ssg": "^0.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.12.3",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@types/three": "^0.184.1",
+    "@vitejs/plugin-react": "^5.2.0",
+    "sharp": "^0.34.5",
+    "typescript": "~6.0.2",
+    "vite": "^7.3.3"
+  }
+}
