@@ -1,8 +1,14 @@
+import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { getChapters, BOOK_PURCHASE_URL } from '../lib/chapters'
 
 export function Component() {
   const chapters = getChapters()
+  
+  // Scroll to top when navigating to this page
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   return (
     <div className="book-index">

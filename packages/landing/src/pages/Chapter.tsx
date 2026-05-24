@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
@@ -5,6 +6,11 @@ import { getChapter, getAdjacentChapters, BOOK_PURCHASE_URL } from '../lib/chapt
 
 export function Component() {
   const { slug } = useParams<{ slug: string }>()
+  
+  // Scroll to top when chapter changes
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [slug])
   
   if (!slug) {
     return <div className="chapter-error">Chapter not found</div>
@@ -45,7 +51,7 @@ export function Component() {
         <div className="fadeout-gradient" />
         <div className="continue-reading">
           <p className="continue-text">Continue reading in the full book...</p>
-          <a href={BOOK_PURCHASE_URL} className="cta-button large">
+          <a href={BOOK_PURCHASE_URL} className="cta-button cta-primary cta-large">
             Get the Full Book →
           </a>
         </div>
