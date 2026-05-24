@@ -1,0 +1,96 @@
+name: Build Book
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Pandoc
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc
+
+      - name: Install WeasyPrint
+        run: |
+          sudo apt-get install -y weasyprint
+
+      - name: Build EPUB
+        run: |
+          mkdir -p output
+          pandoc \
+            --metadata-file=publish/metadata.yaml \
+            --metadata toc=true \
+            --css=publish/epub.css \
+            --epub-embed-font=publish/epub.css \
+            --toc \
+            --toc-depth=1 \
+            --split-level=1 \
+            --standalone \
+            --resource-path=".:assets:assets/pose-exports" \
+            -o output/organized-not-forced.epub \
+            publish/frontmatter.md \
+            chapters/00-prologue.md \
+            chapters/01-five-goals.md \
+            chapters/02-old-way.md \
+            chapters/03-pistol-squat.md \
+            chapters/04-muscle-up.md \
+            chapters/05-hspu.md \
+            chapters/06-front-lever.md \
+            chapters/07-planche.md \
+            chapters/08-skeleton.md \
+            chapters/09-scapula.md \
+            chapters/10-joints.md \
+            chapters/11-carryover.md \
+            chapters/12-organized-not-forced.md
+
+      - name: Build PDF
+        run: |
+          pandoc \
+            --metadata-file=publish/metadata.yaml \
+            --css=publish/print.css \
+            --embed-resources \
+            --standalone \
+            --resource-path=".:assets:assets/pose-exports" \
+            -o output/organized-not-forced-print.html \
+            publish/frontmatter.md \
+            chapters/00-prologue.md \
+            chapters/01-five-goals.md \
+            chapters/02-old-way.md \
+            chapters/03-pistol-squat.md \
+            chapters/04-muscle-up.md \
+            chapters/05-hspu.md \
+            chapters/06-front-lever.md \
+            chapters/07-planche.md \
+            chapters/08-skeleton.md \
+            chapters/09-scapula.md \
+            chapters/10-joints.md \
+            chapters/11-carryover.md \
+            chapters/12-organized-not-forced.md
+          
+          weasyprint output/organized-not-forced-print.html output/organized-not-forced.pdf
+
+      - name: Upload EPUB artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: organized-not-forced-epub
+          path: output/organized-not-forced.epub
+
+      - name: Upload PDF artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: organized-not-forced-pdf
+          path: output/organized-not-forced.pdf
+
+      - name: Upload all outputs
+        uses: actions/upload-artifact@v4
+        with:
+          name: organized-not-forced-all
+          path: output/
