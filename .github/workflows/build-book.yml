@@ -29,6 +29,13 @@ jobs:
         run: |
           sudo apt-get install -y weasyprint
 
+      # ============================================
+      # CHAPTER LIST - Update when chapters change!
+      # ============================================
+      # If you rename, add, remove, or reorder chapters,
+      # update BOTH the EPUB and PDF build steps below.
+      # ============================================
+      
       - name: Build EPUB
         run: |
           mkdir -p output
@@ -58,6 +65,7 @@ jobs:
             chapters/11-carryover.md \
             chapters/12-organized-not-forced.md
 
+      # Same chapter list as EPUB - keep in sync!
       - name: Build PDF
         run: |
           pandoc \
