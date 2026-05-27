@@ -28,6 +28,14 @@ export const routes: RouteRecord[] = [
         lazy: () => import('./pages/Chapter'),
         getStaticPaths: () => chapterSlugs.map(slug => `read/${slug}`),
       },
+      {
+        path: 'mantra',
+        lazy: () => import('./pages/MantraCard'),
+      },
+      {
+        path: 'flashcards',
+        lazy: () => import('./pages/FlashCards'),
+      },
     ],
   },
 ]
