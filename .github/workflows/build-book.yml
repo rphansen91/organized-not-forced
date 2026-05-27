@@ -45,7 +45,7 @@ jobs:
             -o output/organized-not-forced.epub \
             publish/frontmatter.md \
             chapters/00-prologue.md \
-            chapters/01-five-goals.md \
+            chapters/01-the-rhythm.md \
             chapters/02-old-way.md \
             chapters/03-pistol-squat.md \
             chapters/04-muscle-up.md \
@@ -69,7 +69,7 @@ jobs:
             -o output/organized-not-forced-print.html \
             publish/frontmatter.md \
             chapters/00-prologue.md \
-            chapters/01-five-goals.md \
+            chapters/01-the-rhythm.md \
             chapters/02-old-way.md \
             chapters/03-pistol-squat.md \
             chapters/04-muscle-up.md \
