@@ -2,7 +2,7 @@
 
 I got into pike position and let go.
 
-Not the movement—the *trying*. Hands rooted into the floor, hips high, head dropping forward between my arms. And then something clicked.
+Not the movement—the *trying*. Hands rooted into the floor, hips high, head dropping forward between my arms. And then something shifted.
 
 Not a joint. Not a pop. A *connection*.
 
@@ -16,9 +16,7 @@ I'd been chasing this feeling for months. Depress harder. Squeeze more. Pull you
 
 And now? I wasn't forcing anything.
 
-Gravity was doing it for me.
-
-My torso had organized itself. My shoulder blades settled onto my ribcage not because I'd forced them there, but because I'd finally gotten out of the way.
+Inverted, gravity was on my side. I didn't need to pull my shoulders down—they settled on their own, locked onto my ribcage. The connection I'd been chasing for months was already there. I'd just been blocking it.
 
 For the first time, I understood what scapular depression actually meant—not jamming my shoulders down, but *allowing the structure to stack*.
 
@@ -42,7 +40,7 @@ I'd watched guys on Instagram doing these movements. Muscle-ups that looked effo
 
 Something about it called to me. Not the aesthetics. The *control*. They seemed to understand something about their bodies that I didn't understand about mine.
 
-I could do forty push-ups. Maybe five pull-ups on a good day. I had a base—motivated, building muscle, showing up consistently. But I'd hit a wall I didn't know how to name. I stretched and nothing changed. I ground through reps and stayed stuck. I watched tutorials, collected cues, tried harder.
+I've always been an athlete. Always shown up, always pushed. But I kept hitting the same wall—and I didn't know how to name it. I stretched and nothing changed. I ground through reps and stayed stuck. I watched tutorials, collected cues, tried harder.
 
 And trying harder wasn't working.
 
